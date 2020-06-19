@@ -18,4 +18,8 @@ def custom_method()
      end until i > num
 end
 
-custom_method()
+
+StackProf.run(mode: :cpu, out: 'tmp/stackprof-cpu-myapp.dump') do
+    custom_method()
+end
+
