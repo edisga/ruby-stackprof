@@ -32,7 +32,7 @@ end
 
 StackProf.run(mode: :cpu, out: 'stackprof-cpu-myapp.dump') do
     p "Starting Profiler"
-    p fibonacci(40)
+    p fibonacci(45)
     custom_method()
     p "Finish method and profiler"
 end
