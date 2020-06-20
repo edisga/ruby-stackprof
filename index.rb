@@ -21,7 +21,7 @@ def custom_method()
      end until i > num
 end
 
-def fib(n)
+def fibonacci(n)
 	if (n<=2)
 		return 1
 	else
