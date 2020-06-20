@@ -9,7 +9,7 @@ end
 def custom_method()
     reportnum = 1
     i = 1
-    num = 214748
+    num = 21474
 
     begin
         reportnum = reportnum * i;
